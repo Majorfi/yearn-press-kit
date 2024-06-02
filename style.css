@@ -75,3 +75,33 @@ body {@apply text-neutral-900;}
     overflow: hidden;
     visibility: hidden;
 }
+
+@layer utilities {
+	.tint-grey-100 {
+		background-color: #F4F4F4;
+	}
+	.tint-grey-200 {
+		background-color: #EBEBEB;
+	}
+	.tint-grey-300 {
+		background-color: #E1E1E1;
+	}
+	.tint-grey-400 {
+		background-color: #9D9D9D;
+	}
+	.tint-grey-500 {
+		background-color: #7E7E7E;
+	}
+	.tint-grey-600 {
+		background-color: #5B5B5B;
+	}
+	.tint-grey-700 {
+		background-color: #424242;
+	}
+	.tint-grey-800 {
+		background-color: #282828;
+	}
+	.tint-grey-900 {
+		background-color: #0C0C0C;
+	}
+}

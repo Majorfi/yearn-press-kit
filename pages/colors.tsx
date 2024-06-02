@@ -43,25 +43,25 @@ function	Colors(): ReactElement {
 				title={'Tints'}
 				description={'Tints of color extend the color palette, for example,\nfor use in UI, charts and diagrams.'}>
 				<div className={'grid grid-cols-1 pt-5 pb-14 md:grid-cols-4'}>
-					<div className={'h-[160px] bg-good-ol-grey-100 px-5 py-4 text-black'}>
+					<div className={'tint-grey-100 h-[160px] px-5 py-4 text-black'}>
 						<p>{"Good ol' Grey 100"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#F4F4F4'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'244.244.244'}</p>
 						<p>{'5.4.4.0'}</p>
 					</div>
-					<div className={'h-[160px] bg-good-ol-grey-200 px-5 py-4 text-black'}>
+					<div className={'tint-grey-200 h-[160px] px-5 py-4 text-black'}>
 						<p>{"Good ol' Grey 200"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#EBEBEB'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'235.235.235'}</p>
 						<p>{'9.6.7.0'}</p>
 					</div>
-					<div className={'h-[160px] bg-good-ol-grey-300 px-5 py-4 text-black'}>
+					<div className={'tint-grey-300 h-[160px] px-5 py-4 text-black'}>
 						<p>{"Good ol' Grey 300"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#E1E1E1'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'225.225.225'}</p>
 						<p>{'14.10.11.0'}</p>
 					</div>
-					<div className={'h-[160px] bg-good-ol-grey-400 px-5 py-4 text-black'}>
+					<div className={'tint-grey-400 h-[160px] px-5 py-4 text-black'}>
 						<p>{"Good ol' Grey 400"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#9D9D9D'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'157.157.157'}</p>
@@ -69,25 +69,25 @@ function	Colors(): ReactElement {
 					</div>
 
 
-					<div className={'h-[160px] bg-good-ol-grey-500 px-5 py-4 text-white'}>
+					<div className={'tint-grey-500 h-[160px] px-5 py-4 text-white'}>
 						<p>{"Good ol' Grey 500"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#7E7E7E'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'126.126.126'}</p>
 						<p>{'50.39.39.21'}</p>
 					</div>
-					<div className={'h-[160px] bg-good-ol-grey-600 px-5 py-4 text-white'}>
+					<div className={'tint-grey-600 h-[160px] px-5 py-4 text-white'}>
 						<p>{"Good ol' Grey 600"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#5B5B5B'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'91.91.91'}</p>
 						<p>{'59.49.47.39'}</p>
 					</div>
-					<div className={'h-[160px] bg-good-ol-grey-700 px-5 py-4 text-white'}>
+					<div className={'tint-grey-700 h-[160px] px-5 py-4 text-white'}>
 						<p>{"Good ol' Grey 700"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#424242'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'66.66.66'}</p>
 						<p>{'66.56.53.57'}</p>
 					</div>
-					<div className={'h-[160px] bg-good-ol-grey-800 px-5 py-4 text-white'}>
+					<div className={'tint-grey-800 h-[160px] px-5 py-4 text-white'}>
 						<p>{"Good ol' Grey 800"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#282828'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'40.40.40'}</p>
@@ -95,7 +95,7 @@ function	Colors(): ReactElement {
 					</div>
 
 
-					<div className={'h-[160px] bg-good-ol-grey-900 px-5 py-4 text-white'}>
+					<div className={'tint-grey-900 h-[160px] px-5 py-4 text-white'}>
 						<p>{"Good ol' Grey 900"}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'#0C0C0C'}</p>
 						<p className={'cursor-pointer hover:font-bold'} onClick={copyColor}>{'12.12.12'}</p>
